@@ -1,0 +1,118 @@
+@media screen and (max-width: 764px) {
+
+    /* All document */
+    * {
+        background: lightcyan;
+    }
+    
+    /* Main Container */
+    .container {
+        margin: 5% 10%;
+    }
+
+    /* Navigation */
+    .main-links a {
+        display: none;
+    }
+
+    /* Section 1 -Slider */
+    .imgslide {
+        display: none;
+    }
+
+    .passive {
+        background-color:  lightcyan;
+    }
+
+
+    /* Section 2 - About Us */
+    .section2 h2 {
+        display: block; 
+    }
+
+    .section2 div p{
+        width: 250px;
+        text-align: left;
+    }
+
+
+    /* Section 3 - Technologies */
+    .part1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 0px;
+    }
+    
+    .part2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        padding-top: 0px;
+    }
+
+    .part1 div {margin-bottom: 5%;}
+    .part2 div {margin-bottom: 5%;}
+    
+    .box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5%;
+       
+    }
+
+    /* Section 4 - Video */
+    .about-us h3 {
+        margin: 0px;
+        padding-bottom: 25px;
+    }
+
+    .about-us p {
+        margin: 0px;
+    }
+
+    iframe {
+        width: 265px;
+        height: 265px;
+    }
+
+    .youtube {
+        margin-bottom: 35px;
+    }
+
+    /* Section 5 - Contact Form */
+    .cform {
+        padding: 0px;
+    }
+
+    input[type=firstname], 
+    [type=lastname], 
+    [type=email], 
+    [type=tel] {
+        width: 240px;
+        padding: auto;
+    }
+
+    textarea {
+        width: 240px;
+    }
+
+    input[type=submit] {
+        width: 275px;
+    }
+
+    /* Footer */
+    .logo-f {
+        margin-left: 0px;
+    }
+
+    .logo-f img {
+        width: 240px;
+    }
+
+    .logo-f p {
+        width: 265px;
+    }
+
+}

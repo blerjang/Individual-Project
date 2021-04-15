@@ -1,0 +1,282 @@
+/* All Document */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    scroll-behavior: smooth;
+
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+/* Raster Grid */
+r-cell {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+.main-nav {
+    display: flex;
+    align-items: center;	
+    justify-content: space-between;
+    height: 60px;
+}
+
+.main-nav img {
+    width: 240px;
+}
+
+.main-nav ul li {
+    padding-left: 25px;
+    list-style-type: none;
+}
+
+.main-links {
+    display: flex;
+}
+
+.main-nav ul li a {
+    padding: 10px 0px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.main-nav ul li a:hover {
+    border-bottom: 3px solid #1679E1;
+    color: #1679E1;
+}
+
+/* Section 1 - Slider */
+.ilu-img {
+    width: 450px;
+}
+
+.slide {
+    color: #1679E1;
+    text-align: left;
+    margin: auto;
+}
+
+.slide h1 {
+    padding-bottom: 1rem;
+    color: blueviolet;
+    font-size: 45px;
+}
+
+.slide p {
+    padding-bottom: 2rem;
+    font-size: 19px;
+}
+
+.passive {
+    width: 125px;
+    background-color: white;
+    border: 3px solid #1679E1;
+    padding: 10px;
+    border-radius: 16px;
+    font-size: 15px;
+    color: #1679E1;
+    margin-right: 10px;
+    
+}
+
+.active {
+    width: 125px;
+    background-color: #1679E1;
+    border: 3px solid #1679E1;
+    font-size: 15px;
+    border-radius: 16px;
+    padding: 10px;
+    color: white;   
+}
+
+/*  Scroll */
+.section-1 {
+    color: black;
+}
+
+/* Section 2 - About us  */
+.section2 {
+    display: inline-block;
+    justify-content: center;
+}
+
+.section2 div h2 {
+    font-size: 45px;
+    padding-top: 5rem; /* 80px */
+}
+
+.section2 div p{
+    
+    width: 600px;
+    margin: 1.5rem auto;
+    font-size: 20px;
+}
+
+/* Section 3 - Technologies */
+.part1 {
+    display: flex;  
+}
+
+.part2 {
+    display: flex;
+    margin-bottom: 10rem;
+    
+}
+
+.box {
+    border: 3px solid #1679E1;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconify {
+    font-size: 55px;
+}
+
+/* Section 4 - Video */
+.about-us h3 {
+    font-size: 45px;
+    text-align: left;
+    margin-top: 2.5rem;
+    margin-left: 45px;
+}
+
+.about-us p {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 1rem;
+    margin-left: 45px;
+}
+
+iframe {
+    width: 600px;
+    height: 350px;
+}
+.youtube {
+    margin-bottom: 8rem;
+}
+
+.youtube iframe {
+    border: 3px solid #1679E1;
+    border-radius: 20px;
+}
+
+/* Section 5 - Contact Form */
+.cform {
+    margin-bottom: 150px;
+}
+.cform input {
+    margin-bottom: 25px;
+}
+
+input[type=firstname], [type=lastname], [type=email], [type=tel] {
+    width: 500px;  
+    margin: 10px;
+    padding: 15px;  
+    border-radius: 16px;
+    border: 3px solid #1679E1;
+    font-size: 15px;
+}
+
+textarea {
+    width: 90%;  
+    margin: 10px;
+    padding: 15px;  
+    border-radius: 16px;
+    border: 3px solid #1679E1;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+input[type=submit] {
+    display: flex;
+    margin: auto;
+    width: 93%;
+    text-align: center;  
+    padding: 15px;  
+    border-radius: 16px;
+    border: 3px solid #1679E1;
+    font-size: 18px;
+    background-color: #1679E1;
+    color: white;
+}
+
+.form-txt h4 {
+    font-size: 45px;
+    margin-bottom: 1rem;
+}
+
+/* Footer */ 
+.flinks-1 {
+    text-align: left;
+}
+
+.flinks-1 p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.flinks-1 li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.flinks-1 a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.flinks-2 {
+    text-align: left;
+    margin-bottom: 5rem;
+}
+
+.flinks-2 p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.flinks-2 li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.flinks-2 a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.logo-f {
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.logo-f img {
+    width: 300px;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.logo-f p {
+    font-size: 18px;
+    text-align: left;
+}
+
+.socials {
+    float: left;
+    font-size: 20px;
+    margin: 20px 5px 20px 5px;
+}

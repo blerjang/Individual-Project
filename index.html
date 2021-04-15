@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet"> 
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/raster.grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/mobile.css" media="screen and (max-width: 764px)" />
+    <title>Individual Project | HTML5 / CSS3</title>
+</head>
+<body>
+    
+<!-- Main Container -->
+<div class="container">
+
+    <!-- Raster Grid -->
+    <r-grid columns=12> 
+
+        <!-- Navigation -->
+        <r-cell span=row span-s=row class="main-nav">
+            <img src="./assets/img/logo.png" alt="Logo" />
+        <ul class="main-links">
+            <li><a href="#">Ballina</a></li>
+            <li><a href="#">Teknologjite</a></li>
+            <li><a href="#">Rreth Nesh</a></li>
+            <li><a href="#">Kontakti</a></li>
+        </ul>
+        </r-cell>	
+
+        <!-- Slider -->
+        <r-cell span=1-6 span-s=row class="slide">
+            <h1>Welcome to the world of programming</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint magni beatae dolor necessitatibus consequuntur, quasi obcaecati velit praesentium optio nemo modi, dolores doloribus corporis facilis natus in aperiam molestiae repellendus.</p>
+            <button class="passive">View Courses</button>
+            <button class="active">Get Started</button>
+        </r-cell>
+        <r-cell span=8-12 span-s=row class="imgslide">
+            <img src="./assets/img/code ilustration.jpg" alt="ilustration" class="ilu-img" />
+        </r-cell>
+        <r-cell span=row class="section-1">
+            <a href="#goto2">Scroll Down↓</a>
+        </r-cell>
+
+        <!-- Section 2 -->
+        <r-cell span=row span-s=row class="section2" id="goto2">
+            <div>
+            <h2>What you will learn with us?</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+                necessitatibus eius soluta ullam, temporibus voluptatibus praesentium
+                pariatur quasi ea iste velit ipsa neque est delectus?
+            </p>
+        </div>
+        </r-cell>
+
+        <!-- Section 3 -->
+        <r-cell span=row class="part1">
+            <div class="box"><span class="iconify" data-icon="fa-brands:git" data-inline="false"></span></div>
+            <div class="box"><span class="iconify" data-icon="ant-design:html5-filled" data-inline="false"></span></div>
+            <div class="box"><span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span> </div>
+            <div class="box"><span class="iconify" data-icon="ion:logo-sass" data-inline="false"></span></div>
+            <div class="box"><span class="iconify" data-icon="bi:bootstrap" data-inline="false"></span></div>
+            <div class="box"><span class="iconify" data-icon="bx:bxl-javascript" data-inline="false"></span></div>
+        </r-cell>
+        <r-cell span=row class="part2">
+            <div class="box"><span class="iconify" data-icon="bx:bxl-react" data-inline="false"></span></div>
+            <div class="box"><span class="iconify" data-icon="whh:mysqltwo" data-inline="false"></span></div>
+            <div class="box"><span class="iconify" data-icon="cib:php" data-inline="false"></span></div>
+            <div class="box"><span class="iconify" data-icon="cib:laravel" data-inline="false"></span></div>
+            <div class="box"><span class="iconify" data-icon="bx:bxl-python" data-inline="false"></span></div>
+            <div class="box"><span class="iconify" data-icon="bx:bxl-django" data-inline="false"></span></div>
+        </r-cell>
+        
+        <!-- Section 4 -->
+        <r-cell span=1-4 span-s=row class="about-us">
+        <h3>About PërProgramera</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat reprehenderit saepe laborum voluptatem magnam explicabo officia autem corrupti suscipit?</p>
+        </r-cell>
+        <r-cell span=6-12 span-s=row class="youtube">
+            <iframe src="https://www.youtube.com/embed/funWSIhHhbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </r-cell>
+
+        <!-- Section 5 / Contact Form-->
+        <r-cell span=row class="form-txt">
+            <h4>Contact now for more</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo cumque obcaecati perspiciatis corrupti?</p>
+        </r-cell>
+        <r-cell span=row class="cform">
+            <form action="#">
+                <input type="firstname" id="fname" name="firstname" placeholder="First Name" required>
+                <input type="lastname" id="lname" name="lastname" placeholder="Last Name">
+                <input type="email" id="email" name="emailaddress" placeholder="Email address">
+                <input type="tel" id="tel" name="phonenumber" placeholder="Phone Number">
+                <textarea type="text" id="message" name="yourmessage" placeholder="Your message..." rows="5"></textarea> 
+                <input type="submit" id="btnsend" value="Send Now">
+            </form>
+        </r-cell>
+
+        <!-- Footer -->
+        <r-cell span=1-6 span-s=row class="logo-f">
+            <img src="./assets/img/logo.png" alt="Logo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Necessitatibus soluta voluptate sapiente vero sunt inventore 
+                minus ullam, laudantium velit quam repudiandae
+            </p>
+            <span class="iconify socials" data-icon="feather:facebook" data-inline="false"></span>
+            <span class="iconify socials" data-icon="akar-icons:instagram-fill" data-inline="false"></span>
+            <span class="iconify socials" data-icon="radix-icons:twitter-logo" data-inline="false"></span>
+        </r-cell>
+
+        <r-cell span=7-9 span-s=row class="flinks-1">
+            <p>Rreth Nesh</p>
+            <br>
+            <ul>
+                <li><a href="#">Ballina</a></li>
+                <li><a href="#">Për Ne</a></li>
+                <li><a href="#">Trajnimet</a></li>
+                <li><a href="#">Teknologjite</a></li>
+                <li><a href="#">Kontakti</a></li>
+            </ul>
+        </r-cell>
+        <r-cell span=10-12 span-s=row class="flinks-2">
+            <p>Trajnimet</p>
+            <br>
+            <ul>
+                <li><a href="#">PHP</a></li>
+                <li><a href="#">Wordpress</a></li>
+                <li><a href="#">Python</a></li>
+                <li><a href="#">Full-stack Developer</a></li>
+            </ul>
+        </r-cell>
+
+    </r-grid>
+        
+</div>
+
+</body>
+</html>
