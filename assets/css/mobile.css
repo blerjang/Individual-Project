@@ -5,23 +5,17 @@
         background-color: lightcyan;
     }
 
-    body {
-
-    }
-
-    /* Main Container */
-    .container {
-
-    }
-
-    .imgslide {
-        display: none;
-    }
-
+    /* Navigation */
     .main-nav img {
         padding-top: 0px;
         margin-bottom: 5%;
         width: 250px;
+    }
+
+    
+    /* Section 2 */
+    .imgslide {
+        display: none;
     }
 
     .main-nav {
@@ -43,8 +37,8 @@
     }
 
     .main-links {
-    display: flex;
-	flex-direction: row;
+        display: flex;
+	    flex-direction: row;
     }
 
     .passive {
@@ -56,19 +50,11 @@
         width: 45%;
     }
 
-    .part1 {
-        padding-bottom: 0px;
-    }
-
-    .part2 {
-        padding-top: 0px;
-    }
-
     .slide {
         margin-top: 5%;
     }
 
-
+    /* Section 3*/
     .part1, .part2 {
     display: flex;
 	flex-direction: row;
@@ -78,6 +64,22 @@
 	align-content: stretch;
     }
 
+    .part2 {
+        margin-bottom: 15%;
+        padding:0px;
+        padding-left: 10%;
+    }
+
+    .part1 {
+        padding: 0px;
+        padding-left: 10%;
+    }
+
+    div .box {
+        margin: 5%;
+    }
+
+    /* Section 4*/
     .about-us h3 {
         margin: 0px;
     }
@@ -90,15 +92,15 @@
         width: 100%;
         height: 100%;
     }
-
-    .form-txt h4 {
-        text-align: left;
-        padding: 0px;
+    
+    .youtube {
+        margin-bottom: 30%;
     }
 
-    .form-txt p {
-        text-align: left;
-        padding: 0px;
+    /* Section 5 / Contact Form*/
+    .cform {
+        padding: 20px 0px;
+        margin-bottom: 15%;
     }
 
     input[type=firstname], [type=lastname], [type=email], [type=tel] {
@@ -111,9 +113,6 @@
         margin: 10px 0px;
     }
 
-    .cform {
-        padding: 20px 0px;
-    }
 
     input[type=submit] {
         width: 90%;
@@ -122,6 +121,21 @@
 
     }
 
+    .section2 div p {
+        width: 100%;
+    }
+
+    .form-txt h4 {
+        text-align: left;
+        padding: 0px;
+    }
+
+    .form-txt p {
+        text-align: left;
+        padding: 0px;
+    }
+
+    /* Footer */
     .logo-f {
         margin: 0px;
     }
@@ -129,18 +143,6 @@
     .logo-f img {
         width: 220px;
     }
-
-    .section2 div p {
-        width: 100%;
-    }
-
-    div .box {
-        margin: 5%;
-    }
-
-
-
-
 
 
 }
