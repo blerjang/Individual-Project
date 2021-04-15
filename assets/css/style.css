@@ -13,6 +13,7 @@
     width: 80%;
     margin: auto;
     margin-top: 1rem;
+    height: 100vh;
 }
 
 /* Raster Grid */
@@ -184,7 +185,7 @@ iframe {
 }
 
 input[type=firstname], [type=lastname], [type=email], [type=tel] {
-    width: 500px;  
+    width: 40%;  
     margin: 10px;
     padding: 15px;  
     border-radius: 16px;
@@ -193,7 +194,7 @@ input[type=firstname], [type=lastname], [type=email], [type=tel] {
 }
 
 textarea {
-    width: 90%;  
+    width: 85%;  
     margin: 10px;
     padding: 15px;  
     border-radius: 16px;
@@ -205,7 +206,7 @@ textarea {
 input[type=submit] {
     display: flex;
     margin: auto;
-    width: 93%;
+    width: 88%;
     text-align: center;  
     padding: 15px;  
     border-radius: 16px;
